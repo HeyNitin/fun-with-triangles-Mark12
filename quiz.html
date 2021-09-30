@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <nav class="navigation">
+        <div class="nav-brand">TRIANGLES</div>
+        <ul class="nav-list non-bullet">
+            <li class="list-inline">
+                <a href="index.html" class="link">Is It A Triangle</a>
+            </li>
+            <li class="list-inline">
+                <a href="area.html" class="link">Area</a>
+            </li>
+            <li class="list-inline">
+                <a href="quiz.html" class="link link-active">Quiz</a>
+            </li>
+            <li class="list-inline">
+                <a href="hypotenuse.html" class="link">Hypotenuse</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="header">
+        
+        <h1>Test your knowledge on Triangles!</h1>
+        <form action="" class="quiz-form">
+            <div class="question-container">
+                <p>1. What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+                <label>
+                    <input type="radio" name="question1" value="45°" />45°
+                </label>    
+                <label>
+                    <input type="radio" name="question1" value="90°" />90°
+                <label>
+                <label>
+                    <input type="radio" name="question1" value="60°" />60°
+                </label>
+                <p>2.  What is the type of triangle when Angle1: 30°, Angle2: 45°, Angle3: 105°</p>
+                <label>
+                    <input type="radio" name="question2" value="acute-angled" />Acute Angled Triagle
+                </label>
+                <label>
+                    <input type="radio" name="question2" value="obtuse-angled" />Obtuse Angled Triangle
+                <label>
+                <label>
+                    <input type="radio" name="question2" value="right-angled" />Right Angled Triangle
+                </label>
+                <p>3.  What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+                
+                <label>
+                    <input type="radio" name="question3" value="obtuse-angled°" />Obtuse Angled Triangle
+                <label>
+
+                <label>
+                    <input type="radio" name="question3" value="acute-angled" />Acute Angled Triagle
+                </label>
+
+                <label>
+                    <input type="radio" name="question3" value="right-angled" />Right Angled Triangle
+                </label>
+                <p>4.  A triangle can have</p>
+                <label>
+                    <input type="radio" name="question4" value="one-right-angle" />one right angle
+                </label>
+                <label>
+                    <input type="radio" name="question4" value="two-right-angles" />two right angles
+                <label>
+                <label>
+                    <input type="radio" name="question4" value="three-right-angles" />three right angles
+                <label>
+                
+                <p>5.  What do you call a triangle when one of the angle is 90°?</p>
+                <label>
+                    <input type="radio" name="question5" value="acute-angled" />Acute Angled Triagle
+                </label>
+                <label>
+                    <input type="radio" name="question5" value="obtuse-angled°" />Obtuse Angled Triangle
+                <label>
+                <label>
+                    <input type="radio" name="question5" value="right-angled" />Right Angled Triangle
+                </label>
+            </div>
+        </form>
+        <div class="result">
+            <button id="submit-answer-btn">Submit Answers</button>
+        </div>
+        <p id="output"></p>
+        <script src="quiz.js"></script>
+    </div>
+    
+</body>
+</html>

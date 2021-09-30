@@ -1,0 +1,104 @@
+.three-sides-container{
+    
+    flex-direction: column;
+}
+
+.container > label {
+    font-size: 1.2rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+:root {
+    --primary-color: cadetblue;
+}
+
+.non-bullet {
+    list-style: none;
+}
+
+.non-bullet-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.container {
+    max-width: 50%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-bottom: 11.5rem;
+}
+
+.navigation {
+    background-color: rgb(86, 86, 155);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+    max-width: 180vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.navigation .list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation .nav-list {
+    text-align: right;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.link{
+    color: white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+input {
+    margin-bottom: 1.5rem;
+}
+
+#heading {
+    margin-bottom: 1.5rem;
+}
+
+button {
+    background-color: rgb(86, 86, 155);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.container > h1 {
+    margin-top: 1.5rem;
+    
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+}
